@@ -1,0 +1,56 @@
+name: 骇客邦
+title: 骇客邦
+url: https://haikebang.com
+myBaseurl: https://haikebang.com
+description: 以名誉为重，始于态度，这里没有领导者，却有为人尊重的英雄。
+permalink: /:title.html
+timezone: Asia/Shanghai
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+source: .
+destination: ./_site
+
+author: anonymous
+author_url: https://haikebang.com
+email: hi@haikebang.com
+
+markdown: kramdown
+markdown_ext: md
+
+kramdown: # https://kramdown.gettalong.org/rdoc/Kramdown/Options.html
+  auto_ids: true # kramdown supports the automatic generation of header IDs if the option auto_ids is set to true.
+  # auto_id_prefix: "section" # This option can be used to set a prefix for the automatically generated header IDs so that there is no conflict when rendering multiple kramdown documents into one output file separately. The prefix should only contain characters that are valid in an ID!
+  footnote_nr: 1 # This option can be used to specify the number that is used for the first footnote.
+  # entity_output:  as_char
+  toc_levels: 1..6 # Defines the levels that are used for the table of contents
+  # smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  # input: GFM
+  hard_wrap: true
+  syntax_highlighter: pygments
+
+compress_html:
+  clippings: [div, p, ul, td, h1, h2]
+  comments: ["<!-- ", " -->"]
+  #startings: [html, head, body]
+  endings: all
+  blanklines: true
+  profile: false
+  ignore:
+    envs: [local]
+
+# PODCAST
+license: CC-BY-SA
+podcast:
+  title: 骇客邦
+  subtitle: 以名誉为重，始于态度，这里没有领导者，却有为人尊重的英雄。
+  url: /podcast.xml
+  albumCover: /images/podcast.jpg
+  summary: >
+    以名誉为重，却并非来自强权、亦或外貌、或者能力，而是源于施与，将时间，态度，创意及创意结果贡献他人。<br />
+    始于态度，这里没有领导者，却有为人尊重的英雄，我们对傲慢的自我中心者永不认同。<br />
+    网站：<a href="https://haikebang.com">haikebang.com</a><br />
+    群组：<a href="https://t.me/hihackers">t.me/hihackers</a>
