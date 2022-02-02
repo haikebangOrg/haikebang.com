@@ -19,10 +19,8 @@ mp3:
 
 我一直对"记忆"这个主题很有兴趣，所以其实很早就有关注这方面的软件。而 SuperMemo 最开始强烈吸引我的却并不是它的推荐或算法，而是 Piotr Wozniak 始于 1985/1987 年的坚持和迭代。
 
-> SuperMemo 和 Anki 的设计均基于 Flashcard，Flashcard 这一概念自公元 1800 年面世后，从早期的纸质卡到现在的电子卡，无论如何发展，其本质仍然是通过"抽认卡片"的模式进行测试。
-
-> 最早的电子 Flashcard 可以追述到 MS-DOS 系统时代，也就是 Windows 系统的前身，微软的命令行操作系统。Flashcard 出现于第一个间隔式复习（SRS: spaced-repetition software）软件 SuperMemo，于 1987 年 12 月，由波兰人 Piotr Wozniak 设计研发。
-
+> SuperMemo 和 Anki 的设计均基于 Flashcard，Flashcard 这一概念自公元 1800 年面世后，从早期的纸质卡到现在的电子卡，无论如何发展，其本质仍然是通过"抽认卡片"的模式进行测试。<br />
+> 最早的电子 Flashcard 可以追述到 MS-DOS 系统时代，也就是 Windows 系统的前身，微软的命令行操作系统。Flashcard 出现于第一个间隔式复习（SRS: spaced-repetition software）软件 SuperMemo，于 1987 年 12 月，由波兰人 Piotr Wozniak 设计研发。<br />
 > （出自 https://cn.apkjam.com/learning/2012/06/18/ankidroid/ ）
 
 三十多年过去了，SuperMemo 的算法不断优化更新。Anki 也因良好的开放和拓展性，获得了大量用户的青睐。
