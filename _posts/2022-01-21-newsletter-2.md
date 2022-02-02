@@ -42,4 +42,4 @@ Eric 在 2020 年「CSS 裸奔日」写了一篇很好的文章与我们分享�
 
 The English Podcast
 
-- https://jsntn.github.io/talks/css-naked-day.html
+- [https://jsntn.github.io/talks/css-naked-day.html](https://jsntn.github.io/talks/css-naked-day.html)
