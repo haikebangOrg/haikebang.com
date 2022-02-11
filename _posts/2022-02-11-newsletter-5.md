@@ -33,7 +33,7 @@ mp3:
 
 ## 骇客邦
 
-- [关于这里](https://haikebang.com/ab   out.html)
+- [关于这里](https://haikebang.com/about.html)
 - [交流社区](https://haikebang.org)
 - [群组规则](https://haikebang.com/rules.html)
 - 联系方式：hi AT haikebang.com
