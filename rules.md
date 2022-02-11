@@ -5,8 +5,8 @@ layout: default
 
 欢迎加入[「骇客邦」](https://haikebang.com)群组：
 
-<i class="fa fa-user-plus" aria-hidden="true"></i><a href="/telegram.html" target="_blank">「骇客邦」海外电报群组</a><br />
-<i class="fa fa-user-plus" aria-hidden="true"></i><a href="/zsxq.html" target="_blank">「骇客邦」国内知识星球</a>
+- <i class="fa fa-user-plus" aria-hidden="true"></i><a href="/telegram.html" target="_blank">「骇客邦」海外电报群组</a><br />
+- <i class="fa fa-user-plus" aria-hidden="true"></i><a href="/zsxq.html" target="_blank">「骇客邦」国内知识星球</a>
 
 群组规则：
 
