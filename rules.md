@@ -17,8 +17,8 @@ layout: default
 
 欢迎通过 iTunes 或者[泛用型客户端](//cn.apkjam.com/up.html)订阅我们的[播客](/podcast.xml)：
 
-<i class="fa fa-podcast" aria-hidden="true"></i> <a href="/podcast.xml">泛用型播客客户端订阅地址</a><br />
-<i class="fa fa-apple" aria-hidden="true"></i> <a href="https://itunes.apple.com/podcast/id1306886829">苹果 iTunes 播客收听地址</a>
+- <i class="fa fa-podcast" aria-hidden="true"></i> <a href="/podcast.xml">泛用型播客客户端订阅地址</a><br />
+- <i class="fa fa-apple" aria-hidden="true"></i> <a href="https://itunes.apple.com/podcast/id1306886829">苹果 iTunes 播客收听地址</a>
 
 扩展阅读：
 
