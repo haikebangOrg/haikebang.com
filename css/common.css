@@ -310,3 +310,11 @@ kbd {
   -webkit-border-radius: 3px;
   text-shadow: 0 1px 0 #fff;
 }
+
+.wob {
+  color: white;
+  font-size: 14px;
+  border-radius: 2px;
+  padding: 1px 5px 1px 5px;
+  background-color: #4A8AF4;
+}
