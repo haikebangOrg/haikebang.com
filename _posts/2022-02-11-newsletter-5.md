@@ -4,7 +4,7 @@ title: 「骇客」的定义
 subtitle: 
 update: 2022-02-11
 category: 
-tags: 
+tags: newsletter
 place: 大连
 weather: 晴
 permalink: hacker.html
@@ -13,6 +13,7 @@ poster:
 duration: 
 length: 
 mp3: 
+discussion: https://haikebang.org/t/topic/131
 ---
 
 在绝大多数人的眼中，“骇客”通常意味着对技术有超常的理解，并可能会对系统造成破解、入侵甚至是破坏的人，如果我们去维基百科查看相应词条也会发现这一点：

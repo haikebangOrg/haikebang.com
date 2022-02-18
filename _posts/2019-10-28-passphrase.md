@@ -13,6 +13,7 @@ poster: /images/2019/10/akshay-m--y-UmkbyXaE-unsplash.jpg
 duration: 
 length: 
 mp3: 
+discussion: https://haikebang.org/t/topic/20
 ---
 
 Unix 源码的 `/etc/passwd` 文件，包含了创始人 Ken Thompson 的密码哈希 `ZghOT0eRm4U9s`，一直破解不了。

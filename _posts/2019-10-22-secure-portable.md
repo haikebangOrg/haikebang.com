@@ -13,6 +13,7 @@ poster: /images/2019/10/markus-spiske-iar-afB0QQw-unsplash.jpg
 duration: 00:05:15
 length: 7806976
 mp3: haikebang.com/recording/secure-portable.mp3
+discussion: https://haikebang.org/t/topic/19
 ---
 
 <p>

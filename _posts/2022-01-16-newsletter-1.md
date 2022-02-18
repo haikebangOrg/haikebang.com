@@ -4,7 +4,7 @@ title: 存档孤本
 subtitle: 
 update: 2022-01-16
 category: 
-tags: 
+tags: newsletter
 place: 大连
 weather: 晴
 permalink: archive-the-only-copy.html
@@ -13,6 +13,7 @@ poster:
 duration: 
 length: 
 mp3: 
+discussion: https://haikebang.org/t/topic/127
 ---
 
 > 中文互联网内容的枯萎有目共睹，在这个过程中，我时常感到遗憾的一件事就是很多早期网络优秀内容的消逝。<br />

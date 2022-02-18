@@ -4,7 +4,7 @@ title: CSS 裸奔日
 subtitle: 
 update: 2022-01-21
 category: 
-tags: 
+tags: newsletter
 place: 大连
 weather: 晴
 permalink: css-naked-day.html
@@ -13,6 +13,7 @@ poster:
 duration: 
 length: 
 mp3: 
+discussion: https://haikebang.org/t/topic/128
 ---
 
 我把自己的[一个播客站](https://giveupenglish.com)的主题风格全部去掉了，0 CSS。

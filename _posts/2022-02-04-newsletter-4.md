@@ -4,7 +4,7 @@ title: 写博客的人
 subtitle: 
 update: 2022-02-04
 category: 
-tags: 
+tags: newsletter
 place: 大连
 weather: 晴
 permalink: blogger.html
@@ -13,6 +13,7 @@ poster:
 duration: 
 length: 
 mp3: 
+discussion: https://haikebang.org/t/topic/130
 ---
 
 "博客现象"始于 1998 年，当时全世界只有 30 多个博客网站。到了 2002 年 8 月，《新闻周刊》称，

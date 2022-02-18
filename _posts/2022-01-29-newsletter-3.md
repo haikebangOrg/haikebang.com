@@ -4,7 +4,7 @@ title: 记忆
 subtitle: 
 update: 2022-01-29
 category: 
-tags: 
+tags: newsletter
 place: 大连
 weather: 晴
 permalink: memory.html
@@ -13,6 +13,7 @@ poster:
 duration: 
 length: 
 mp3: 
+discussion: https://haikebang.org/t/topic/129
 ---
 
 辅助记忆的软件似乎近些年开始流行起来，在网上有很多推荐的文章，基本以 SuperMemo 和 Anki 为主。
