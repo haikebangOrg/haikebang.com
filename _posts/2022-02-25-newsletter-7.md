@@ -22,31 +22,31 @@ discussion: https://haikebang.org/t/topic/134
 
 收到了很多问题，这里集中回答一下。
 
-1. 那个软件叫 Emacs，我的截图显示的不过是它无数模式中的 Org-mode 模式。
+01) 那个软件叫 Emacs，我的截图显示的不过是它无数模式中的 Org-mode 模式。
 
-2. 多年的 Vi 使用习惯（2008 - 至今）对我产生了深刻的影响，如今我在 Emacs 中借助 Evil mode 最大程度地享受着 Vi 的快捷操控感和 Emacs 的魔力。
+02) 多年的 Vi 使用习惯（2008 - 至今）对我产生了深刻的影响，如今我在 Emacs 中借助 Evil mode 最大程度地享受着 Vi 的快捷操控感和 Emacs 的魔力。
 
-3. 层级显示不是空格或 Tab 出来的，而是通过 * 控制。一个 * 为一级，两个 * 为二级缩进，以此类推。
+03) 层级显示不是空格或 Tab 出来的，而是通过 * 控制。一个 * 为一级，两个 * 为二级缩进，以此类推。
 
-4. 任务完成情况的 tag ---- TODO，IN-PROGRESS，DONE，WAIT 不是手动敲出来的，而是通过 Ctrl+t 键唤出 tag 菜单，然后一键选择。
+04) 任务完成情况的 tag ---- TODO，IN-PROGRESS，DONE，WAIT 不是手动敲出来的，而是通过 Ctrl+t 键唤出 tag 菜单，然后一键选择。
 
-5. 任务优先级 [A] [B] [C] 不是手敲出来的，而是 Alt+Up/Down 键选择的。
+05) 任务优先级 [A] [B] [C] 不是手敲出来的，而是 Alt+Up/Down 键选择的。
 
-6. 子任务完成百分比不是手动计算出来的，而是 Org-mode 任务管理的默认功能。
+06) 子任务完成百分比不是手动计算出来的，而是 Org-mode 任务管理的默认功能。
 
-7. Ctrl-u Ctrl-c . 可以快速开始当前时间戳的 comments track。
+07) Ctrl-u Ctrl-c . 可以快速开始当前时间戳的 comments track。
 
-8. 即便以上这些功能无法快速实现，我是个写代码的，我也不会允许手动去敲和去计算来实现，那对我会是个耻辱。🐶
+08) 即便以上这些功能无法快速实现，我是个写代码的，我也不会允许手动去敲和去计算来实现，那对我会是个耻辱。🐶
 
-9. Emacs 不是大众软件。如果你觉得 Vi 很难用，你会觉得 Emacs 不是给人用的。
+09) Emacs 不是大众软件。如果你觉得 Vi 很难用，你会觉得 Emacs 不是给人用的。
 
-10. 没有半年左右的日常应用，你恐怕无法入门 Emacs。而一旦你把它融入你的工作生活中，你就再也回不去了。当一只鸟飞起后，它就不会再满足于在地上。人的心灵一旦扩展，就不会回到之前的状态。
+10) 没有半年左右的日常应用，你恐怕无法入门 Emacs。而一旦你把它融入你的工作生活中，你就再也回不去了。当一只鸟飞起后，它就不会再满足于在地上。人的心灵一旦扩展，就不会回到之前的状态。
 
-11. Emacs rocks since 1976.
+11) Emacs rocks since 1976.
 
-12. 最后，假如你想挑战一下 Emacs 的学习曲线，我维护了一份自己从 2020 年初开始的 Emacs 配置可供你参考，我尽了最大努力试图让它同时兼容我的 Windows 和 macOS，我也相信在 Emacs 老伙计眼中，它恐怕仍很初级。但对初学者来说，我想它会有价值。
+12) 最后，假如你想挑战一下 Emacs 的学习曲线，我维护了一份自己从 2020 年初开始的 Emacs 配置可供你参考，我尽了最大努力试图让它同时兼容我的 Windows 和 macOS，我也相信在 Emacs 老伙计眼中，它恐怕仍很初级。但对初学者来说，我想它会有价值。
 
-    🔗 https://github.com/jsntn/emacs.d
+    🔗 [github.com/jsntn/emacs.d](https://github.com/jsntn/emacs.d)
 
 .
 
@@ -64,7 +64,7 @@ discussion: https://haikebang.org/t/topic/134
 
 🔖年轻人跪得再也起不来
 
-🔗 https://note.jsntn.com/coding-with-emacs.html
+🔗 [note.jsntn.com/coding-with-emacs.html](https://note.jsntn.com/coding-with-emacs.html)
 
 .
     
@@ -88,7 +88,7 @@ discussion: https://haikebang.org/t/topic/134
 
 ---半年？入门都远着呢，能学会移动光标就不错了。你还别说耗不起，就不给你 GUI。你得研究极客的学习心理，汇编都学出来的人根本就不在乎学编辑器这点时间。
 
-🔗 https://note.jsntn.com/emacs-rocks.html
+🔗 [note.jsntn.com/emacs-rocks.html](https://note.jsntn.com/emacs-rocks.html)
 
 .
 
