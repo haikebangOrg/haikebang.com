@@ -46,7 +46,7 @@ discussion: https://haikebang.org/t/topic/134
 
 12) 最后，假如你想挑战一下 Emacs 的学习曲线，我维护了一份自己从 2020 年初开始的 Emacs 配置可供你参考，我尽了最大努力试图让它同时兼容我的 Windows 和 macOS，我也相信在 Emacs 老伙计眼中，它恐怕仍很初级。但对初学者来说，我想它会有价值。
 
-    🔗 [github.com/jsntn/emacs.d](https://github.com/jsntn/emacs.d)
+🔗 [github.com/jsntn/emacs.d](https://github.com/jsntn/emacs.d)
 
 .
 
