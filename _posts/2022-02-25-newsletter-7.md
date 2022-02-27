@@ -16,7 +16,7 @@ mp3:
 discussion: https://haikebang.org/t/topic/134
 ---
 
-大家坐好了静一下，我说个事儿，就是我前两天在朋友圈发了一张自己的 GTD 截图，
+大家坐好了静一下，我说件事儿，就是我前两天在朋友圈发了一张自己的 GTD 截图，
 
 ![](/images/2022/02/gtd.jpeg)
 
