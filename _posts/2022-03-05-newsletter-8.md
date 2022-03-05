@@ -4,7 +4,7 @@ title: 加密软件推荐
 subtitle: 
 update: 2022-03-05
 category: 
-tags: 
+tags: newsletter
 place: 
 weather: 
 permalink: crypt.html
