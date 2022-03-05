@@ -27,6 +27,7 @@ discussion: https://haikebang.org/t/topic/129
 三十多年过去了，SuperMemo 的算法不断优化更新。Anki 也因良好的开放和拓展性，获得了大量用户的青睐。
 
 基于 Flashcard，遗忘曲线和科学的算法，最后还有坚持学习，SuperMemo 和 Anki 二者都会加固我们的记忆。
+
 而这三方面中，
 
 - Flashcard
@@ -49,6 +50,14 @@ Michael Nielsen 有一篇很好的文章叫 Augmenting Long-term Memory，非常
 - 横向拓展：知识不会孤立存在，建立联系
 - 纵向拓展：不同知识间建立通道
 - 深度拓展：知识背景的探究
+
+.
+
+.
+
+值得推荐的 Anki 共享牌组
+
+- [4000 Essential English Words (all books) [en-en]](https://ankiweb.net/shared/info/1104981491)
 
 .
 
