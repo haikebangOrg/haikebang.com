@@ -39,10 +39,14 @@ TL; DR.
 **Android:**
 
 * EDS
+* Cryptomator
 
 **iOS:**
 
 * Disk Decipher
+* Cryptomator
+
+综合来看，我仍是 VeraCrypt/TrueCrypt 的钟爱者，即便它的 Volume 大小生成不好控制，云同步不友好。而针对这两点的解决方案，如果可以忍受桌面端多文件时的效率和不支持 keyfile 的话，Cryptomator 实在是不二之选。
 
 .
 
