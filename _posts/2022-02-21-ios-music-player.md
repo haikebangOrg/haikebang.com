@@ -21,6 +21,12 @@ discussion: https://haikebang.org/t/topic/133
 
 作为开源软件的拥护者，foobar2000 的音乐导入却实在让我爱不起来。
 
+——-
+
+[2022-03-12] foobar2000 通过手机直接导入音乐的方法看这里 👉🏻 https://www.reddit.com/r/foobar2000/comments/oyjycf/ios_where_is_the_foobar2000_music_folder/
+
+——-
+
 Spotify 很好，但是中文曲库真的不全啊……而且我需要的主要是一个离线音乐播放器。
 
 很多人推荐的 Ever Play 我试了，似乎会有很强大的音效支持，还有效果图？然后呢？
