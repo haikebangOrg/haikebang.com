@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Emacs Rocks
+title: #7 Emacs Rocks
 subtitle: 
 update: 2022-02-25
 category: 

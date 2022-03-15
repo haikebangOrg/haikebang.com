@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 写博客的人
+title: #4 写博客的人
 subtitle: 
 update: 2022-02-04
 category: 
@@ -70,3 +70,4 @@ discussion: https://haikebang.org/t/topic/130
 Read more
 
 - [为什么你应该（从现在开始就）写博客](http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/)
+- [The English Podcast @Jasons Talks](https://jsntn.github.io/talks/blog-phenomenon.html)

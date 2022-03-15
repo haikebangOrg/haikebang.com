@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 记忆
+title: #3 记忆
 subtitle: 
 update: 2022-01-29
 category: 
@@ -68,3 +68,4 @@ Read more
 - [始于 1985 年的 SuperMemo](https://jsntn.com/software/2014/04/22/supermemo.html)
 - [从 SuperMemo 到 Anki](https://jsntn.com/software/2013/09/19/anki.html)
 - [Anki 教程：为 COCA 词库导入韦氏发音](https://jsntn.com/software/2016/04/20/anki-coca.html)
+- [The English Podcast @Jasons Talks](https://jsntn.github.io/talks/memory.html)
