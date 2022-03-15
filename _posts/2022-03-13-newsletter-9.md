@@ -4,7 +4,7 @@ title: “物非所用”的应用范例
 subtitle: 
 update: 2022-03-13
 category: 
-tags: 
+tags: newsletter
 place: 
 weather: 
 permalink: side-functionality.html
