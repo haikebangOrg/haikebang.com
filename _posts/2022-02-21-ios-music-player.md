@@ -23,7 +23,7 @@ discussion: https://haikebang.org/t/topic/133
 
 ——-
 
-[2022-03-12] foobar2000 通过手机直接导入音乐的方法看这里 👉🏻 https://www.reddit.com/r/foobar2000/comments/oyjycf/ios_where_is_the_foobar2000_music_folder/
+[2022-03-12] foobar2000 通过手机直接导入音乐的方法看👉[这里](https://www.reddit.com/r/foobar2000/comments/oyjycf/ios_where_is_the_foobar2000_music_folder/)
 
 ——-
 
@@ -32,6 +32,8 @@ Spotify 很好，但是中文曲库真的不全啊……而且我需要的主要
 很多人推荐的 Ever Play 我试了，似乎会有很强大的音效支持，还有效果图？然后呢？
 
 VOX 不错，但是我又遇到了 Flacbox！
+
+[2022-03-18] foobar2000 [没法单曲循环啊](https://www.reddit.com/r/foobar2000/comments/jc5trk/can_you_loop_one_track_in_the_ios_version/)……🔂
 
 .
 
