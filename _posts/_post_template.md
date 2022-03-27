@@ -4,7 +4,7 @@ title:
 subtitle: 
 update: 2019-10-28
 category: 
-tags: 
+tags: newsletter
 place: 
 weather: 
 permalink: xxx.html
