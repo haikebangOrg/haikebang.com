@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" type="image/png" href="/favicon.png" />
+<link rel="stylesheet" type="text/css" href="/css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="/css/common.css" />
+<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 700px)" href="/css/max700.css" />
+<link rel="stylesheet" type="text/css" media="screen and (min-device-width: 700px)" href="/css/min700.css" />
+<link rel="stylesheet" type="text/css" href="/font-awesome/css/font-awesome.min.css" />
+<title>把便携软件装进“隐私盒子” | 骇客邦</title>
+<meta property="og:site_name" content="骇客邦" />
+<meta property="og:title" content="把便携软件装进“隐私盒子”" />
+<meta property="og:type" content="article" />
+<meta property="og:description" content="每个人捍卫的是个人隐私和基本权利，上个世纪现代密码学得以发展，公开密钥密码设计横空出世，这种原本应用于间谍体系的技术最终成为了互联网的基石，那些为加密学无私贡献力量的人，我们称他们为英雄。" />
+<meta name="description" content="每个人捍卫的是个人隐私和基本权利，上个世纪现代密码学得以发展，公开密钥密码设计横空出世，这种原本应用于间谍体系的技术最终成为了互联网的基石，那些为加密学无私贡献力量的人，我们称他们为英雄。" />
+<meta property="article:author" content="anonymous" />
+<meta property="article:author" content="https://haikebang.com" />
+<script type="application/ld+json">
+{
+      "@context" : "https://schema.org",
+      "@type" : "WebSite",
+      "name" : "骇客邦",
+      "url" : "https://haikebang.com"
+    }
+</script>
+<meta property="article:published_time" content="2019-10-22T00:00:00+08:00" />
+<meta property="og:url" content="https://haikebang.com/secure-portable.html" />
+<link rel="canonical" href="https://haikebang.com/secure-portable.html" />
+<script type="application/ld+json">
+{
+      "@context" : "https://schema.org",
+      "@type" : "NewsArticle",
+      "headline" : "把便携软件装进“隐私盒子”",
+      "image" : null,
+      "datePublished" : "2019-10-22T00:00:00+08:00",
+      "description" : 每个人捍卫的是个人隐私和基本权利，上个世纪现代密码学得以发展，公开密钥密码设计横空出世，这种原本应用于间谍体系的技术最终成为了互联网的基石，那些为加密学无私贡献力量的人，我们称他们为英雄。      
+    }
+</script>
+<link rel="next" href="/passphrase.html" title="关于「密码」的一些建议" />
+<link rel="prev" href="/zsxq.html" title="「骇客邦」知识星球" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109304218-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-109304218-1');
+</script>
+<body>
+<a class="logo" href="/"><img src="/images/logo_2path.svg" /></a>
+<div class="poster">
+<img src="/images/2019/10/markus-spiske-iar-afB0QQw-unsplash.jpg" />
+</div>
+<div class="post-content">
+<h1 class="post-title">把便携软件装进“隐私盒子”</h1>
+<p class="post-date">22 Oct 2019
+<div class="google-ad">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="ca-pub-0467901677192331"
+       data-ad-slot="2703040498"></ins>
+  <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+<p>
+<audio controls="controls">
+<source src="/recording/secure-portable.mp3" type="audio/mpeg" />
+<embed width="100%" src="/recording/secure-portable.mp3" />
+</audio>
+<h2 id="绿色软件和便携软件">「绿色软件」和「便携软件」</h2>
+<p>「便携软件」和「绿色软件」是两个不同的概念。我们大众心中的「绿色软件」是指免安装，不会对系统有修改、卸载时直接删除目录即可。而「便携软件」相对于「绿色软件」，应该是有更严格的要求或者说规范。
+<p>除了基本的「绿色软件」的要求——免安装、对系统无修改、易删除之外，
+<ul>
+  <li>要有清晰的目录结构，实现程序和数据的分离。例如其中包括 App 文件夹和 Data 文件夹等
+  <li>数据要完整保存于专属的文件夹内，比如保存在 Data 文件夹中
+  <li>在软件使用过程中产生的数据要可以在移动后和更换电脑以后打开即用
+  <li>应该不需要额外的依赖（取决于软件自身的特性和设计架构）
+</ul>
+<p>符合了上面这些要求之后，我们再去考虑「便携软件」加密这个主题。
+<h2 id="思考">思考</h2>
+<ul>
+  <li>加密的几种实现方法
+  <li>选择全盘加密还是 Volume 加密？
+  <li>要通过云盘使用吗？
+  <li>在通讯软件应用了端到端加密之后，如何去加固我们的设备终端？
+  <li>对于在使用过程中涉及到云端交互的软件，即使我们可以确保信息在本地绝对安全，又怎么保证在服务器端的存储呢？
+</ul>
+<h2 id="一些加密实践持续更新">一些加密实践（持续更新）</h2>
+<ul>
+  <li><a href="https://jsntn.com/secure-evernote.html">强化 Evernote 的加密和隐私保护</a>
+  <li><a href="https://cn.apkjam.com/60s/saferoom.html">为 Evernote 配备一间加密“安全屋”</a>
+  <li><a href="https://jsntn.com/software/2012/05/27/gvim.html">Vim 加密解密</a>
+</ul>
+<h2 id="扩展阅读">扩展阅读</h2>
+<ul>
+  <li>节目中引用的英文音频出自 Phil Zimmermann 的 <a href="https://www.youtube.com/watch?v=IuT4nphnmzc">Stories from the Crypto Revolution</a>
+  <li><a href="https://www.youtube.com/watch?v=4ww8AAkWFhM">DEFCON 11 - A Conversation with Phil Zimmermann</a>
+  <li><a href="https://jsntn.com/software/2014/06/01/truecrypt.html">TrueCrypt is not secure</a>
+  <li><a href="https://cn.apkjam.com/eds.html">安卓上的 TrueCrypt</a>
+  <li><a href="https://jsntn.com/software/portable-cryptomator.html">「译文」便携版 Cryptomator</a>
+  <li><a href="https://cn.apkjam.com/cryptomator.html">为网盘加密而生的 Cryptomator</a>
+  <li><a href="https://cn.apkjam.com/keepass.html">深受好评的密码管理利器</a>
+</ul>
+<div class="rewardButton" style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+<a class="anchor" href="https://haikebang.org/t/topic/19">加入「骇客邦」并参与本文讨论</a></div>
+</div>
+<div class="footer"><hr /><i class="fa fa-copyright" aria-hidden="true"></i> <img src="/images/url_2path.svg" /></div>
+<script src="/js/inject.js" defer></script>

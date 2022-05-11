@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <atom:link href="https://haikebang.com/podcast.xml" rel="self" type="application/rss+xml" />
+    <title>骇客邦</title>
+    <link>https://haikebang.com</link>
+    <description><![CDATA[以名誉为重，却并非来自强权、亦或外貌、或者能力，而是源于施与，将时间，态度，创意及创意结果贡献他人。<br /> 始于态度，这里没有领导者，却有为人尊重的英雄，我们对傲慢的自我中心者永不认同。<br /> 网站：<a href="https://haikebang.com">haikebang.com</a><br /> 群组：<a href="https://t.me/hihackers">t.me/hihackers</a>
+]]></description>
+    <copyright>CC-BY-SA 2022 骇客邦</copyright>
+    <language>zh-cn</language>
+    <managingEditor>hi@haikebang.com (anonymous)</managingEditor>
+    <webMaster>hi@haikebang.com (anonymous)</webMaster>
+    <pubDate>Wed, 11 May 2022 20:57:07 +0800</pubDate>
+    <lastBuildDate>Wed, 11 May 2022 20:57:07 +0800</lastBuildDate>
+    <image>
+      <link>https://haikebang.com</link>
+      <url>https://haikebang.com/images/podcast.jpg</url>
+      <title>骇客邦</title>
+    </image>
+    <generator>骇客邦</generator>
+    <itunes:author>anonymous</itunes:author>
+    <itunes:category text="Technology">
+      <itunes:category text="Podcasting" />
+    </itunes:category>
+    <itunes:explicit>No</itunes:explicit>
+    <itunes:subtitle>以名誉为重，始于态度，这里没有领导者，却有为人尊重的英雄。</itunes:subtitle>
+    <itunes:summary><![CDATA[以名誉为重，却并非来自强权、亦或外貌、或者能力，而是源于施与，将时间，态度，创意及创意结果贡献他人。<br /> 始于态度，这里没有领导者，却有为人尊重的英雄，我们对傲慢的自我中心者永不认同。<br /> 网站：<a href="https://haikebang.com">haikebang.com</a><br /> 群组：<a href="https://t.me/hihackers">t.me/hihackers</a>
+]]></itunes:summary>
+    <itunes:keywords></itunes:keywords>
+    <itunes:owner>
+      <itunes:name>anonymous</itunes:name>
+      <itunes:email>hi@haikebang.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://haikebang.com/images/podcast.jpg" />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <item>
+      <title>把便携软件装进“隐私盒子”</title>
+      <link>https://haikebang.com/secure-portable.html</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://haikebang.com/recording/secure-portable.mp3</guid>
+      <enclosure length="7806976" url="https://haikebang.com/recording/secure-portable.mp3" type="audio/mpeg"/>
+      <description><![CDATA[每个人捍卫的是个人隐私和基本权利，上个世纪现代密码学得以发展，公开密钥密码设计横空出世，这种原本应用于间谍体系的技术最终成为了互联网的基石，那些为加密学无私贡献力量的人，我们称他们为英雄。<br /><br />原文链接：<a href="https://haikebang.com/secure-portable.html">把便携软件装进“隐私盒子”</a>]]></description>
+      <content:encoded><![CDATA[每个人捍卫的是个人隐私和基本权利，上个世纪现代密码学得以发展，公开密钥密码设计横空出世，这种原本应用于间谍体系的技术最终成为了互联网的基石，那些为加密学无私贡献力量的人，我们称他们为英雄。<br /><br />原文链接：<a href="https://haikebang.com/secure-portable.html">把便携软件装进“隐私盒子”</a>]]></content:encoded>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:author>anonymous</itunes:author>
+      <itunes:duration>315.0</itunes:duration>
+      <itunes:subtitle><![CDATA[互联网的基石]]></itunes:subtitle>
+      <itunes:image href="https://haikebang.com/images/podcast.jpg" />
+      <itunes:keywords>podcast</itunes:keywords>
+      <itunes:summary><![CDATA[每个人捍卫的是个人隐私和基本权利，上个世纪现代密码学得以发展，公开密钥密码设计横空出世，这种原本应用于间谍体系的技术最终成为了互联网的基石，那些为加密学无私贡献力量的人，我们称他们为英雄。<br /><br />原文链接：<a href="https://haikebang.com/secure-portable.html">把便携软件装进“隐私盒子”</a>]]></itunes:summary>
+    </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <item>
+      <title>Aaron 的故事</title>
+      <link>https://haikebang.com/aaron.html</link>
+      <pubDate>Wed, 08 Nov 2017 00:00:00 +0800</pubDate>
+      <guid isPermaLink="true">https://haikebang.com/recording/aaron_swartz/output.mp3</guid>
+      <enclosure length="21182170" url="https://haikebang.com/recording/aaron_swartz/output.mp3" type="audio/mpeg"/>
+      <description><![CDATA[1986 年 11 月 8 日，Aaron Swartz 出生于美国芝加哥伊利诺伊州，他父亲创办了一个软件公司，Aaron 在 3 岁的时候就接触到了计算机，并产生了浓厚的兴趣。Aaron 为互联网世界贡献了很多美好的东西，但是很不幸的是，在 2013 年 1 月 11 日，Aaron 自杀了，那一年他 26 岁。他是互联网之子，他用生命捍卫了互联网的开放和自由。<br /><br />原文链接：<a href="https://haikebang.com/aaron.html">Aaron 的故事</a>]]></description>
+      <content:encoded><![CDATA[1986 年 11 月 8 日，Aaron Swartz 出生于美国芝加哥伊利诺伊州，他父亲创办了一个软件公司，Aaron 在 3 岁的时候就接触到了计算机，并产生了浓厚的兴趣。Aaron 为互联网世界贡献了很多美好的东西，但是很不幸的是，在 2013 年 1 月 11 日，Aaron 自杀了，那一年他 26 岁。他是互联网之子，他用生命捍卫了互联网的开放和自由。<br /><br />原文链接：<a href="https://haikebang.com/aaron.html">Aaron 的故事</a>]]></content:encoded>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:author>anonymous</itunes:author>
+      <itunes:duration>00:22:03</itunes:duration>
+      <itunes:subtitle><![CDATA[互联网之子]]></itunes:subtitle>
+      <itunes:image href="https://haikebang.com/images/podcast.jpg" />
+      <itunes:keywords>podcast</itunes:keywords>
+      <itunes:summary><![CDATA[1986 年 11 月 8 日，Aaron Swartz 出生于美国芝加哥伊利诺伊州，他父亲创办了一个软件公司，Aaron 在 3 岁的时候就接触到了计算机，并产生了浓厚的兴趣。Aaron 为互联网世界贡献了很多美好的东西，但是很不幸的是，在 2013 年 1 月 11 日，Aaron 自杀了，那一年他 26 岁。他是互联网之子，他用生命捍卫了互联网的开放和自由。<br /><br />原文链接：<a href="https://haikebang.com/aaron.html">Aaron 的故事</a>]]></itunes:summary>
+    </item>
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,17 @@
+.poster {
+  display: block;
+  height: -moz-calc(100% - 6em); /* Firefox */
+  height: -webkit-calc(100% - 6em); /* WebKit */
+  height: -o-calc(100% - 6em); /* Opera */
+  height: calc(100% - 6em); /* Standard */
+  overflow: hidden;
+}
+
+.poster img {
+  width: 100%;
+  height: auto;
+}
+
+.footnotes-title {
+  left: 1.5em;
+}

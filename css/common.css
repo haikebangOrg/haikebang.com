@@ -1,0 +1,320 @@
+@font-face {
+font-family: 'Noto Sans SC';
+font-style: normal;
+font-weight: 400;
+src: url('../fonts/NotoSansSC-Regular.woff2') format('woff2'),
+     url('../fonts/NotoSansSC-Regular.woff') format('woff'),
+     url('../fonts/NotoSansSC-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Chinese Double Quotation Marks';
+  unicode-range: U+201C-201D;
+  src: url('../fonts/NotoSansSC-Regular.woff2') format('woff2'),
+       url('../fonts/NotoSansSC-Regular.woff') format('woff'),
+       url('../fonts/NotoSansSC-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'OpenSans Regular';
+    src: url('../fonts/OpenSans-Regular.eot');
+    src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+         url('../fonts/OpenSans-Regular.woff') format('woff'),
+         url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Code Pro Regular';
+    src: url('../fonts/SourceCodePro-Regular.eot');
+    src: url('../fonts/SourceCodePro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceCodePro-Regular.woff2') format('woff2'),
+         url('../fonts/SourceCodePro-Regular.woff') format('woff'),
+         url('../fonts/SourceCodePro-Regular.ttf') format('truetype'),
+         url('../fonts/SourceCodePro-Regular.svg#Source Code Pro Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'Chinese Double Quotation Marks', 'OpenSans Regular', 'Helvetica Neue', Helvetica, 'Noto Sans SC', 'Microsoft YaHei', "微软雅黑", STXihei, "华文细黑", Arial, sans-serif;  
+  font-size: 16px;
+  font-color: #888;
+  line-height: 28px;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;        /* 字体抗锯齿 */
+  -webkit-text-stroke-width: 0.2px;           /* 设置或检索对象中的文字的描边宽度。可取小数和 medium（描边宽度中等），thick（描边宽度粗），thin（描边宽度细）关键字。默认值为 0 */
+  -moz-osx-font-smoothing: grayscale;         /* 字体抗锯齿 */
+}
+
+a { color: #2a7ae2; text-decoration: none; }
+a:visited { color: #1756a9; }
+a:hover { color: #111; text-decoration: underline; }
+
+.home-poster {
+  display: block;
+  max-height: 19em;
+  overflow: hidden;
+}
+
+.home-poster img {
+  width: 100%;
+}
+
+.home-ul { padding: 0 } /* Override USER AGENT STYLE SHEET - Chrome(https://stackoverflow.com/questions/20116148/override-user-agent-style-sheet-chrome) */
+
+.home-ul li {
+  list-style-type: none;
+}
+
+.post-content {
+  width: 90%;
+  margin: 5% 5%;
+}
+
+.post-content ol {
+  counter-reset: item;
+  margin-left: 0;
+  padding-left: 1.3em;
+}
+.post-content ol li {
+  display: flex;
+}
+.post-content ol li::before {
+  display: inline-block;
+  content: counter(item) ". ";
+  counter-increment: item;
+  width: 1em;
+}
+
+.logo, .logo img {
+  max-width: 12em;
+  height: 4em;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo img {
+  margin: 1em 0;
+}
+
+.poster img {
+  margin: 1em 0;
+}
+
+code {
+  font-family: 'Source Code Pro Regular', monospace, monospace;
+  font-size: 1em;  
+  padding: 1px 7px;
+  margin: 2px 0px;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* TOC STYLE
+========================================================================*/
+
+  #markdown-toc::before {
+    content: "CONTENTS";
+    font-weight: bold;
+  }
+
+  #markdown-toc ul {
+    list-style: decimal;
+  }
+
+  #markdown-toc {
+    border: 1px solid #aaa;
+    list-style: decimal;
+    display: inline-block;
+    padding: 0.7em 1.2em 0.7em 3.5em;    
+  }
+
+  audio {
+  width: 100%;
+  }
+
+  img {
+  max-width: 100%;
+  }
+
+  .post-title, .post-date {
+    text-align: center;
+  }
+
+  li:not(.home-li) {
+    margin: 0 0 0 -1em;
+    list-style: square;
+  }
+
+  blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 0px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+
+  blockquote p {
+    display: inline;
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  }
+
+  .footer {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .footer i {
+    position: absolute;
+    display: inline-block;
+    width: 1em;
+    padding: 1.1em 0 0 0;
+    margin-top: -1em;
+    margin-left: -4.5em;
+  }
+
+  .footer img {
+    position: absolute;
+    display: inline-block;
+    width: 8em;
+    padding: 1em 0 0 1em;
+    margin-top: -1em;
+    margin-left: -4.5em;
+  }
+
+  .highlighter {
+    background-color: #B4E7F8;
+  }
+  .highlighter_underline {
+    border-bottom: 4px solid #B4E7F8;
+  }
+
+.rewardButton {
+  border: 0;
+  outline: 0;
+  border-radius: 100%;
+  padding: 0;
+  margin: 0;
+  letter-spacing: normal;
+  text-transform: none;
+  text-indent: 0;
+  text-shadow: none;
+}
+.rewardButton a {
+  display: inline-block;
+  width: 15em;
+  height: 2em;
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Chinese Double Quotation Marks', 'OpenSans Regular', 'Helvetica Neue', Helvetica, 'Noto Sans SC', 'Microsoft YaHei', "微软雅黑", STXihei, "华文细黑", Arial, sans-serif;  
+  background: #f44336;
+}
+
+sup {
+  top: -0.5em;
+  margin: 0 1px 0 1px;
+}
+
+a.footnote {
+  background-color: lightgray;
+  border-radius: 3px;
+  padding: 0 3px 0 3px;
+}
+
+.footnotes ol {
+  padding-top: 16px;
+  padding-bottom: 12px;
+}
+
+#footnotes-top-line {
+  position: absolute;
+  top: -0.1em;
+  width: 100%;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+.footnotes {
+  position: relative;
+  font-size: 15px;
+  line-height: 27px;
+  -webkit-text-stroke-width: 0.1px;
+}
+
+.footnotes-title {
+  position: absolute;
+  top: -1em;
+  line-height: 1.7em;
+  padding: 0 1em;
+  font-size: 10px;
+  background-color: #fff;
+}
+
+.footnotes p {
+  display: inline-block;
+  margin: 0;
+  padding-left: 3px!important;
+}
+
+mark { /* refer to https://stackoverflow.com/questions/43683187/how-can-i-create-custom-underline-or-highlight-for-text-in-html-or-css */
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='1px' height='1px' viewBox='0 0 1 1' preserveAspectRatio='none'%3E%3Crect x='0' y='0' width='1' height='1' fill='yellow' /%3E%3C/svg%3E") no-repeat 100% 100%;
+  background-size: 100% 50%;
+}
+
+kbd,
+.post pre,
+.post code {
+  border: 1px solid #d5d5e9;
+  padding: 8px 12px;
+  border-radius: 3px;
+  font-family: 'Source Code Pro Regular', 'Noto Sans SC', monospace, monospace, 'Microsoft YaHei', "微软雅黑", STXihei, "华文细黑", Arial, sans-serif;
+  font-size: 16px;
+  white-space: pre;
+}
+
+kbd {
+  margin: 0px 0.1em;
+  padding: 0.15em 0.6em;
+  border-radius: 3px;
+  border: 1px solid rgb(204, 204, 204);
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  font-size: 14px;
+  display: inline-block;
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.2), inset 0px 0px 0px 2px #ffffff;
+  background-color: rgb(247, 247, 247);
+  -moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #ffffff inset;
+  -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #ffffff inset;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.wob {
+  color: white;
+  font-size: 14px;
+  border-radius: 2px;
+  padding: 1px 5px 1px 5px;
+  background-color: #4A8AF4;
+}

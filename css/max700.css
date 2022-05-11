@@ -1,0 +1,14 @@
+.poster {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.poster img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footnotes-title {
+  left: 5%;
+}
