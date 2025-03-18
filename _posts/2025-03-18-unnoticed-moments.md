@@ -8,7 +8,7 @@ tags:
 place: 
 weather: 
 permalink: unnoticed-moments.html
-description: 
+description: “任何东西从后往前看，都可以找到联系，从前往后看找不到学习的意义。”
 poster: 
 duration: 
 length: 
