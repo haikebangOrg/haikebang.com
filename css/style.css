@@ -266,6 +266,10 @@ audio { width: 100%; }
   vertical-align: middle;
 }
 
+[data-theme="dark"] .footer img {
+  filter: invert(1);
+}
+
 /* === KBD === */
 kbd {
   font-family: var(--font-mono);
