@@ -29,13 +29,13 @@ jobs:
 
       - name: Install dependencies
         run: |
+          rm -f Gemfile Gemfile.lock
           gem install jekyll jekyll-paginate classifier-reborn
 
       - name: Build with Jekyll (LSI enabled)
         run: jekyll build --lsi
         env:
           JEKYLL_ENV: production
-          BUNDLE_GEMFILE: ""
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
