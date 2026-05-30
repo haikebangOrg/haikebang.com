@@ -35,6 +35,7 @@ jobs:
         run: jekyll build --lsi
         env:
           JEKYLL_ENV: production
+          BUNDLE_GEMFILE: ""
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
