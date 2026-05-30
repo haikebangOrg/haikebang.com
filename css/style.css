@@ -1,0 +1,290 @@
+/* === RESET & BASE === */
+*, *::before, *::after { box-sizing: border-box; }
+
+:root {
+  --bg: #fafafa;
+  --text: #2c2c2c;
+  --text-muted: #666;
+  --accent: #2a7ae2;
+  --accent-hover: #1756a9;
+  --border: #e0e0e0;
+  --code-bg: #f4f4f4;
+  --blockquote-border: #4a8af4;
+  --blockquote-bg: #f6f8fc;
+  --tag-bg: #e8f4e8;
+  --tag-color: #2d6a2d;
+  --max-width: 680px;
+  --font-mono: 'Source Code Pro', 'JetBrains Mono', 'Fira Code', monospace;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Noto Sans SC', 'Helvetica Neue', sans-serif;
+}
+
+[data-theme="dark"] {
+  --bg: #1a1a2e;
+  --text: #e0e0e0;
+  --text-muted: #999;
+  --accent: #64b5f6;
+  --accent-hover: #90caf9;
+  --border: #333;
+  --code-bg: #252540;
+  --blockquote-border: #64b5f6;
+  --blockquote-bg: #1e1e36;
+  --tag-bg: #1e3a1e;
+  --tag-color: #7dce7d;
+}
+
+/* === TYPOGRAPHY === */
+body {
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--text);
+  background: var(--bg);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* === LAYOUT === */
+.site-header {
+  max-width: var(--max-width);
+  margin: 2em auto 0;
+  padding: 0 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo, .logo img {
+  max-width: 10em;
+  height: 3em;
+  display: block;
+}
+
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.3em 0.6em;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--text-muted);
+  transition: all 0.2s;
+}
+.theme-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.post-content {
+  max-width: var(--max-width);
+  margin: 2em auto;
+  padding: 0 1.5em;
+}
+
+/* === LINKS === */
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+/* === HEADINGS === */
+h1, h2, h3 {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.post-title {
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 0.2em;
+}
+
+.post-date {
+  text-align: center;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  margin-bottom: 2em;
+}
+
+/* === HOME LIST === */
+.home-ul { padding: 0; margin: 0; }
+
+.home-li {
+  list-style: none;
+  padding: 1.5em 0;
+  border-bottom: 1px solid var(--border);
+}
+.home-li:last-child { border-bottom: none; }
+
+.home-li h2 {
+  font-size: 1.2em;
+  margin: 0 0 0.4em;
+  line-height: 1.4;
+}
+.home-li h2 a { color: var(--text); }
+.home-li h2 a:hover { color: var(--accent); text-decoration: none; }
+
+.home-li p {
+  color: var(--text-muted);
+  font-size: 0.92em;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.home-poster { display: none; }
+
+/* === TAG BADGE === */
+.wob {
+  font-family: var(--font-mono);
+  font-size: 0.7em;
+  padding: 0.15em 0.5em;
+  border-radius: 3px;
+  background: var(--tag-bg);
+  color: var(--tag-color);
+  vertical-align: middle;
+}
+
+/* === CODE === */
+code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  padding: 0.15em 0.4em;
+  background: var(--code-bg);
+  border-radius: 3px;
+  border: 1px solid var(--border);
+}
+
+pre, .post pre {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1em;
+  overflow-x: auto;
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+  line-height: 1.5;
+}
+pre code, .post pre code {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+/* === BLOCKQUOTE === */
+blockquote {
+  border-left: 3px solid var(--blockquote-border);
+  background: var(--blockquote-bg);
+  margin: 1.5em 0;
+  padding: 0.8em 1.2em;
+  border-radius: 0 4px 4px 0;
+}
+blockquote p { display: inline; margin: 0; }
+
+/* === IMAGES === */
+img { max-width: 100%; height: auto; border-radius: 4px; }
+.poster img { margin: 1em 0; }
+
+/* === LISTS === */
+li:not(.home-li) {
+  margin: 0.3em 0;
+  list-style: square;
+}
+
+/* === HR === */
+hr {
+  border: none;
+  height: 1px;
+  background: var(--border);
+  margin: 2em 0;
+}
+
+/* === AUDIO === */
+audio { width: 100%; }
+
+/* === FOOTER === */
+.footer {
+  max-width: var(--max-width);
+  margin: 3em auto 2em;
+  padding: 0 1.5em;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.85em;
+}
+.footer hr { margin-bottom: 1em; }
+.footer i {
+  position: relative;
+  display: inline-block;
+}
+.footer img {
+  display: inline-block;
+  width: 6em;
+  vertical-align: middle;
+}
+
+/* === KBD === */
+kbd {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  padding: 0.1em 0.5em;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: var(--code-bg);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+
+/* === TOC === */
+#markdown-toc::before {
+  content: "CONTENTS";
+  font-family: var(--font-mono);
+  font-weight: bold;
+  font-size: 0.85em;
+  color: var(--text-muted);
+}
+#markdown-toc {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  list-style: decimal;
+  display: inline-block;
+  padding: 0.7em 1.2em 0.7em 3em;
+}
+#markdown-toc ul { list-style: decimal; }
+
+/* === FOOTNOTES === */
+.footnotes {
+  font-size: 0.9em;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+  margin-top: 2em;
+  padding-top: 1em;
+}
+
+/* === HIGHLIGHT === */
+.highlighter { background-color: #B4E7F8; }
+.highlighter_underline { border-bottom: 3px solid #B4E7F8; }
+mark {
+  background: linear-gradient(to top, #fef08a 50%, transparent 50%);
+  padding: 0 2px;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 700px) {
+  body { font-size: 16px; }
+  .post-content { padding: 0 1em; }
+  .site-header { padding: 0 1em; }
+  .post-title { font-size: 1.4em; }
+}
+
+/* === CURSOR BLINK (terminal accent) === */
+.site-header .logo::after {
+  content: "▊";
+  color: var(--accent);
+  animation: blink 1.2s step-end infinite;
+  font-size: 0.8em;
+  margin-left: 0.3em;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}

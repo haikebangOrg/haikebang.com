@@ -8,10 +8,21 @@ layout: compress
 {% include head.html %}
 </head>
 <body>
-{% include logo.html %}
+<header class="site-header">
+  <a class="logo" href="/"><img src="/images/logo_2path.svg" /></a>
+  <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
+</header>
 <div class="post-content">
 {{ content }}
 </div>
 {% include footer.html %}
+<script>
+function toggleTheme() {
+  var current = document.documentElement.getAttribute('data-theme');
+  var next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+}
+</script>
 </body>
 </html>
