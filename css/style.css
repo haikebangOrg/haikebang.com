@@ -77,6 +77,21 @@ body {
   color: var(--accent);
 }
 
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.2em;
+}
+.site-nav a {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  color: var(--text-muted);
+}
+.site-nav a:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
 .post-content {
   max-width: var(--max-width);
   margin: 2em auto;
