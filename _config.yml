@@ -17,6 +17,9 @@ destination: ./_site
 paginate: 10
 paginate_path: "/page/:num/"
 
+plugins:
+  - jekyll-paginate
+
 lsi: true
 
 author: anonymous
