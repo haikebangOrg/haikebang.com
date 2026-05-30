@@ -30,6 +30,18 @@ layout: compress
 {% if page.discussion != nil and page.discussion != empty %}
 {% include discussion.html %}
 {% endif %}
+
+{% assign related = site.related_posts | slice: 0, 4 %}
+{% if related.size > 0 %}
+<div class="related-posts">
+  <h3>相关文章</h3>
+  <ul>
+  {% for post in related %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+</div>
+{% endif %}
 </div>
 {% include footer.html %}
 <script>

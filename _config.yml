@@ -14,6 +14,9 @@ exclude:
 source: .
 destination: ./_site
 
+paginate: 10
+paginate_path: "/page/:num/"
+
 author: anonymous
 author_url: https://haikebang.com
 email: hi@haikebang.com

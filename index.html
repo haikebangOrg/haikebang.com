@@ -2,7 +2,19 @@
 layout: default
 ---
 
-<ul class="home-ul">{% for post in site.posts %}{% if post.category != 'java' and post.layout != 'redir' %}<li class="home-li">
+<ul class="home-ul">{% for post in paginator.posts %}{% if post.category != 'java' and post.layout != 'redir' %}<li class="home-li">
 <h2><a class="post-link" href="{{ post.url }}">{{ post.title }}</a>{% if post.tags contains 'newsletter' %} <span class="wob">newsletter</span>{% endif %}</h2>
 <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 160 }}{% endif %}</p>
 </li>{% endif %}{% endfor %}</ul>
+
+{% if paginator.total_pages > 1 %}
+<nav class="pagination">
+  {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path }}" class="prev">← 上一页</a>
+  {% endif %}
+  <span class="page-num">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path }}" class="next">下一页 →</a>
+  {% endif %}
+</nav>
+{% endif %}
