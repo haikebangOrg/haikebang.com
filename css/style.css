@@ -62,6 +62,10 @@ body {
   display: block;
 }
 
+[data-theme="dark"] .logo img {
+  filter: invert(1);
+}
+
 .theme-toggle {
   background: none;
   border: 1px solid var(--border);
