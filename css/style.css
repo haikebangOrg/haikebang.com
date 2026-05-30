@@ -56,14 +56,51 @@ body {
   justify-content: space-between;
 }
 
-.logo, .logo img {
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
   max-width: 10em;
   height: 3em;
   display: block;
 }
+.logo:hover { text-decoration: none; }
 
 [data-theme="dark"] .logo img {
   filter: invert(1);
+}
+
+.cursor-blink {
+  color: var(--accent);
+  animation: blink 1.2s step-end infinite;
+  font-size: 0.9em;
+  margin-left: 0.3em;
+  user-select: none;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  font-family: var(--font-mono);
+  font-size: 0.82em;
+}
+.site-nav a {
+  color: var(--text-muted);
+  padding: 0.2em 0;
+}
+.site-nav a::before {
+  content: "/";
+  color: var(--border);
+}
+.site-nav a:hover {
+  color: var(--accent);
+  text-decoration: none;
 }
 
 .theme-toggle {
@@ -79,21 +116,6 @@ body {
 .theme-toggle:hover {
   border-color: var(--accent);
   color: var(--accent);
-}
-
-.site-nav {
-  display: flex;
-  align-items: center;
-  gap: 1.2em;
-}
-.site-nav a {
-  font-family: var(--font-mono);
-  font-size: 0.85em;
-  color: var(--text-muted);
-}
-.site-nav a:hover {
-  color: var(--accent);
-  text-decoration: none;
 }
 
 .post-content {
@@ -295,15 +317,4 @@ mark {
   .post-title { font-size: 1.4em; }
 }
 
-/* === CURSOR BLINK (terminal accent) === */
-.site-header .logo::after {
-  content: "▊";
-  color: var(--accent);
-  animation: blink 1.2s step-end infinite;
-  font-size: 0.8em;
-  margin-left: 0.3em;
-}
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
+
