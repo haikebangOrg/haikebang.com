@@ -7,7 +7,7 @@ category: podcast
 tags: podcast
 place: 大连
 weather: 晴
-permalink: 
+permalink: secure-portable.html
 description: 每个人捍卫的是个人隐私和基本权利，上个世纪现代密码学得以发展，公开密钥密码设计横空出世，这种原本应用于间谍体系的技术最终成为了互联网的基石，那些为加密学无私贡献力量的人，我们称他们为英雄。
 poster: /images/2019/10/markus-spiske-iar-afB0QQw-unsplash.jpg
 duration: 00:05:15
