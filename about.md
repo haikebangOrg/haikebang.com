@@ -41,6 +41,10 @@ layout: default
 - <i class="fa fa-podcast" aria-hidden="true"></i> <a href="/podcast.xml">泛用型播客客户端订阅地址</a><br />
 - <i class="fa fa-apple" aria-hidden="true"></i> <a href="https://itunes.apple.com/podcast/id1306886829">苹果 iTunes 播客收听地址</a>
 
+## 订阅
+
+- <i class="fa fa-rss" aria-hidden="true"></i> <a href="/feed.xml">RSS 订阅</a>
+
 [^attitude]: [How To Become A Hacker - Eric S. Raymond](http://www.catb.org/esr/faqs/hacker-howto.html)
 [^integrity]: 富勒博士曾在一次访谈中谈到了“[关于廉正](//jsntn.com/others/2007/05/21/on-integrity.html)”
 [^ask-question]: 推荐一篇很好的文章——[提问的智慧](//github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)，原文链接是 [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html)
