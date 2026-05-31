@@ -1,0 +1,8 @@
+---
+---
+[{% for post in site.posts %}{% if post.layout != 'redir' %}{
+  "title": {{ post.title | jsonify }},
+  "url": "{{ post.url }}",
+  "date": "{{ post.date | date: '%Y-%m-%d' }}",
+  "content": {{ post.content | strip_html | strip_newlines | truncate: 500 | jsonify }}
+}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
