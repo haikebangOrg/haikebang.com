@@ -47,37 +47,26 @@ layout: compress
 {% include subscribe.html %}
 
 <div class="comments">
-<script src="https://giscus.app/client.js"
-  data-repo="haikebangOrg/haikebang.com"
-  data-repo-id="R_kgDOGsWjrw"
-  data-category="General"
-  data-category-id="DIC_kwDOGsWjr84C-MtK"
-  data-mapping="pathname"
-  data-strict="0"
-  data-reactions-enabled="1"
-  data-emit-metadata="0"
-  data-input-position="top"
-  data-theme="light"
-  data-lang="zh-CN"
-  data-loading="lazy"
-  crossorigin="anonymous"
-  async>
-</script>
 <script>
 (function() {
-  var theme = localStorage.getItem('theme') || 'light';
-  var giscusTheme = theme === 'dark' ? 'transparent_dark' : 'light';
-  // Update the script tag before it fully loads, or message the iframe after
-  var check = setInterval(function() {
-    var iframe = document.querySelector('iframe.giscus-frame');
-    if (iframe) {
-      iframe.contentWindow.postMessage({
-        giscus: { setConfig: { theme: giscusTheme } }
-      }, 'https://giscus.app');
-      clearInterval(check);
-    }
-  }, 500);
-  setTimeout(function() { clearInterval(check); }, 10000);
+  var theme = (localStorage.getItem('theme') || 'light') === 'dark' ? 'transparent_dark' : 'light';
+  var s = document.createElement('script');
+  s.src = 'https://giscus.app/client.js';
+  s.setAttribute('data-repo', 'haikebangOrg/haikebang.com');
+  s.setAttribute('data-repo-id', 'R_kgDOGsWjrw');
+  s.setAttribute('data-category', 'General');
+  s.setAttribute('data-category-id', 'DIC_kwDOGsWjr84C-MtK');
+  s.setAttribute('data-mapping', 'pathname');
+  s.setAttribute('data-strict', '0');
+  s.setAttribute('data-reactions-enabled', '1');
+  s.setAttribute('data-emit-metadata', '0');
+  s.setAttribute('data-input-position', 'top');
+  s.setAttribute('data-theme', theme);
+  s.setAttribute('data-lang', 'zh-CN');
+  s.setAttribute('data-loading', 'lazy');
+  s.crossOrigin = 'anonymous';
+  s.async = true;
+  document.querySelector('.comments').appendChild(s);
 })();
 </script>
 </div>
