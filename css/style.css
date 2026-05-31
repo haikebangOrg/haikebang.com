@@ -401,6 +401,22 @@ mark {
   border-top: 1px solid var(--border);
 }
 
+/* === SUBSCRIBE CTA === */
+.subscribe-cta {
+  margin: 2.5em 0;
+  padding: 1.2em 1.5em;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--blockquote-bg);
+  text-align: center;
+}
+.subscribe-title {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  margin: 0 0 0.5em;
+  color: var(--text);
+}
+
 /* === DISCUSSION CTA === */
 .discussion-cta {
   display: block;
