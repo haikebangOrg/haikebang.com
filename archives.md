@@ -9,7 +9,7 @@ permalink: /archives.html
 <input type="text" id="search-input" placeholder="搜索文章..." style="width:100%;padding:0.6em 1em;font-size:0.92em;border:1px solid var(--border);border-radius:4px;background:var(--bg);color:var(--text);font-family:var(--font-body);margin-bottom:1.5em;outline:none;" onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'" />
 
 <div id="archives-list">
-{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% assign posts_by_year = site.posts | where_exp: "post", "post.layout != 'redir'" | group_by_exp: "post", "post.date | date: '%Y'" %}
 {% for year in posts_by_year %}
 <h2 style="font-family:var(--font-mono);font-size:1em;color:var(--text-muted);margin:1.5em 0 0.5em;">{{ year.name }}</h2>
 <ul style="padding:0;list-style:none;">
