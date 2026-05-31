@@ -58,6 +58,10 @@ body {
   justify-content: space-between;
 }
 
+.header-top {
+  display: contents;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -322,9 +326,14 @@ mark {
   .site-header {
     padding: 0 1em;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 0.6em;
+    align-items: stretch;
+    gap: 0.5em;
     margin-top: 1.2em;
+  }
+  .header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   .site-nav {
     gap: 0.5em;

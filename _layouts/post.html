@@ -9,14 +9,16 @@ layout: compress
 </head>
 <body>
 <header class="site-header">
-  <div style="display:flex;align-items:center">
-    <a class="logo" href="/"><img src="/images/logo_2path.svg" /></a><span class="cursor-blink">▊</span>
+  <div class="header-top">
+    <div style="display:flex;align-items:center">
+      <a class="logo" href="/"><img src="/images/logo_2path.svg" /></a><span class="cursor-blink">▊</span>
+    </div>
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
   </div>
   <nav class="site-nav">
     <a href="/about.html">about</a>
     <a href="/rules.html">rules</a>
     <a href="/archives.html">archives</a>
-    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">◐</button>
   </nav>
 </header>
 {% if page.poster != nil and page.poster != empty %}
