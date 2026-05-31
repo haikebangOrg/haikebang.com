@@ -26,6 +26,6 @@ GitLab 宣布要开始她的 5GB per namespace 的 Free tier 限制了，从 202
 
 ![GitLab](/images/2022/09/gitlab-3.jpeg)
 
-在「[骇客邦 #25 牛哄哄的屠龙刀](http://x.haikebang.com/issues/25-1282779)」中，我提到自己给 abo-abo 提的 issue 最近被修复和回复了，非常开心！
+在「[骇客邦 #25 牛哄哄的屠龙刀](/emacs-tiny.html)」中，我提到自己给 abo-abo 提的 issue 最近被修复和回复了，非常开心！
 
 <https://github.com/abo-abo/tiny/issues/14>
