@@ -56,10 +56,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.header-top {
-  display: contents;
+  position: relative;
 }
 
 .logo {
@@ -326,18 +323,18 @@ mark {
   .site-header {
     padding: 0 1em;
     flex-direction: column;
-    align-items: stretch;
+    align-items: flex-start;
     gap: 0.5em;
     margin-top: 1.2em;
-  }
-  .header-top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
   }
   .site-nav {
     gap: 0.5em;
     font-size: 0.78em;
+  }
+  .theme-toggle {
+    position: absolute;
+    top: 0;
+    right: 1em;
   }
   .cursor-blink { display: none; }
   .post-title { font-size: 1.4em; }
