@@ -319,11 +319,20 @@ mark {
 @media (max-width: 700px) {
   body { font-size: 16px; }
   .post-content { padding: 0 1em; }
-  .site-header { padding: 0 1em; }
+  .site-header {
+    padding: 0 1em;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6em;
+    margin-top: 1.2em;
+  }
+  .site-nav {
+    gap: 0.5em;
+    font-size: 0.78em;
+  }
+  .cursor-blink { display: none; }
   .post-title { font-size: 1.4em; }
 }
-
-
 
 /* === PAGINATION === */
 .pagination {
@@ -372,7 +381,7 @@ mark {
   padding-left: 0;
 }
 .related-posts li::before {
-  content: "→ ";
+  content: "\2192 ";
   color: var(--text-muted);
 }
 .related-posts a {
