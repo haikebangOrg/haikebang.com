@@ -404,27 +404,28 @@ mark {
 /* === SUBSCRIBE CTA === */
 .subscribe-cta {
   margin: 2.5em 0;
-  padding: 1.2em 1.5em;
+  padding: 1.5em;
   border: 1px solid var(--border);
   border-radius: 6px;
   background: var(--blockquote-bg);
   text-align: center;
 }
 .subscribe-title {
-  font-family: var(--font-mono);
-  font-size: 0.9em;
-  margin: 0 0 0.8em;
+  font-family: var(--font-body);
+  font-size: 0.92em;
+  margin: 0 0 1em;
   color: var(--text);
 }
 .subscribe-form {
   display: flex;
-  gap: 0.5em;
-  max-width: 400px;
+  flex-direction: column;
+  gap: 0.6em;
+  max-width: 320px;
   margin: 0 auto;
 }
 .subscribe-input {
-  flex: 1;
-  padding: 0.5em 0.8em;
+  width: 100%;
+  padding: 0.6em 1em;
   font-size: 0.9em;
   border: 1px solid var(--border);
   border-radius: 4px;
@@ -437,9 +438,10 @@ mark {
   border-color: var(--accent);
 }
 .subscribe-btn {
-  padding: 0.5em 1.2em;
+  width: 100%;
+  padding: 0.6em 1em;
   font-size: 0.9em;
-  font-family: var(--font-mono);
+  font-family: var(--font-body);
   border: none;
   border-radius: 4px;
   background: var(--accent);
@@ -457,8 +459,8 @@ mark {
   margin: 2em 0;
   padding: 1.2em 1.5em;
   text-align: center;
-  font-family: var(--font-mono);
-  font-size: 0.9em;
+  font-family: var(--font-body);
+  font-size: 0.92em;
   color: var(--text);
   border: 1px solid var(--border);
   border-radius: 6px;
