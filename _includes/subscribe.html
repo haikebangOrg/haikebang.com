@@ -1,3 +1,14 @@
 <div class="subscribe-embed">
-  <iframe src="https://haikebang.substack.com/embed?transparent=1&dark={{ site.data.theme | default: 0 }}" width="480" height="320" style="border: 0; background: transparent;" frameborder="0" scrolling="no"></iframe>
+  <iframe id="substack-embed" src="https://haikebang.substack.com/embed?transparent=1" width="480" height="320" style="border: 0; background: transparent;" frameborder="0" scrolling="no"></iframe>
 </div>
+<script>
+(function() {
+  var f = document.getElementById('substack-embed');
+  function updateSrc() {
+    var dark = document.documentElement.getAttribute('data-theme') === 'dark' ? 1 : 0;
+    f.src = 'https://haikebang.substack.com/embed?transparent=1&dark=' + dark;
+  }
+  updateSrc();
+  new MutationObserver(updateSrc).observe(document.documentElement, {attributes: true, attributeFilter: ['data-theme']});
+})();
+</script>
