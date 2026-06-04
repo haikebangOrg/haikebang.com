@@ -414,6 +414,9 @@ mark {
 .subscribe-embed iframe {
   max-width: 100%;
 }
+[data-theme="dark"] .subscribe-embed iframe {
+  filter: invert(1) hue-rotate(180deg);
+}
 
 /* === DISCUSSION CTA === */
 .discussion-cta {
